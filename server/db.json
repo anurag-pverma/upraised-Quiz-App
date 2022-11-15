@@ -1,124 +1,123 @@
 {
-   
     "results": [
         {
-            "category": "Science: Mathematics",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "In the hexadecimal system, what number comes after 9?",
-            "correct_answer": "The Letter A",
-            "incorrect_answers": [
-                "10",
-                "The Number 0",
-                "16"
-            ]
-        },
-        {
-            "category": "Science: Mathematics",
+            "category": "Science: Computers",
             "type": "multiple",
             "difficulty": "hard",
-            "question": "What is the derivative of Acceleration with respect to time?",
-            "correct_answer": "Jerk",
+            "question": "Which of these names was an actual codename for a cancelled Microsoft project?",
+            "correct_answer": "Neptune",
             "incorrect_answers": [
-                "Shift",
-                "Bump",
-                "Slide"
+                "Enceladus",
+                "Pollux",
+                "Saturn"
             ]
         },
         {
-            "category": "Science: Mathematics",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "What are the first 6 digits of the number &quot;Pi&quot;?",
-            "correct_answer": "3.14159",
-            "incorrect_answers": [
-                "3.14169",
-                "3.12423",
-                "3.25812"
-            ]
-        },
-        {
-            "category": "Science: Mathematics",
-            "type": "multiple",
-            "difficulty": "easy",
-            "question": "In Roman Numerals, what does XL equate to?",
-            "correct_answer": "40",
-            "incorrect_answers": [
-                "60",
-                "15",
-                "90"
-            ]
-        },
-        {
-            "category": "Science: Mathematics",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "To the nearest whole number, how many radians are in a whole circle?",
-            "correct_answer": "6",
-            "incorrect_answers": [
-                "3",
-                "4",
-                "5"
-            ]
-        },
-        {
-            "category": "Science: Mathematics",
-            "type": "multiple",
-            "difficulty": "easy",
-            "question": "The metric prefix &quot;atto-&quot; makes a measurement how much smaller than the base unit?",
-            "correct_answer": "One Quintillionth",
-            "incorrect_answers": [
-                "One Billionth",
-                "One Quadrillionth",
-                "One Septillionth"
-            ]
-        },
-        {
-            "category": "Science: Mathematics",
+            "category": "Science: Computers",
             "type": "multiple",
             "difficulty": "hard",
-            "question": "What is the plane curve proposed by Descartes to challenge Fermat&#039;s extremum-finding techniques called?",
-            "correct_answer": "Folium of Descartes",
+            "question": "Who is the original author of the realtime physics engine called PhysX?",
+            "correct_answer": "NovodeX",
             "incorrect_answers": [
-                "Elliptic Paraboloid of Descartes",
-                "Cartesian Coordinates",
-                "Descarte&#039;s Helicoid"
+                "Ageia",
+                "Nvidia",
+                "AMD"
             ]
         },
         {
-            "category": "Science: Mathematics",
+            "category": "Science: Computers",
             "type": "multiple",
             "difficulty": "hard",
-            "question": "The French mathematician &Eacute;variste Galois is primarily known for his work in which?",
-            "correct_answer": "Galois Theory",
+            "question": "Which data structure does FILO apply to?",
+            "correct_answer": "Stack",
             "incorrect_answers": [
-                "Galois&#039; Continued Fractions",
-                "Galois&#039; Method for PDE&#039;s ",
-                "Abelian Integration"
+                "Queue",
+                "Heap",
+                "Tree"
             ]
         },
         {
-            "category": "Science: Mathematics",
-            "type": "multiple",
-            "difficulty": "easy",
-            "question": "What is the correct order of operations for solving equations?",
-            "correct_answer": "Parentheses, Exponents, Multiplication, Division, Addition, Subtraction",
-            "incorrect_answers": [
-                "Addition, Multiplication, Division, Subtraction, Addition, Parentheses",
-                "Parentheses, Exponents, Addition, Substraction, Multiplication, Division",
-                "The order in which the operations are written."
-            ]
-        },
-        {
-            "category": "Science: Mathematics",
+            "category": "Science: Computers",
             "type": "multiple",
             "difficulty": "hard",
-            "question": "Which of the following mathematicians made major contributions to game theory?",
-            "correct_answer": "John Von Neumann",
+            "question": "Which of the following is the oldest of these computers by release date?",
+            "correct_answer": "TRS-80",
             "incorrect_answers": [
-                "Carl Friedrich Gauss",
-                "Leonhard Euler",
-                "Stefan Banach"
+                "Commodore 64",
+                "ZX Spectrum",
+                "Apple 3"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of the process that sends one qubit of information using two bits of classical information?",
+            "correct_answer": "Quantum Teleportation",
+            "incorrect_answers": [
+                "Super Dense Coding",
+                "Quantum Entanglement",
+                "Quantum Programming"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "America Online (AOL) started out as which of these online service providers?",
+            "correct_answer": "Quantum Link",
+            "incorrect_answers": [
+                "CompuServe",
+                "Prodigy",
+                "GEnie"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which RAID array type is associated with data mirroring?",
+            "correct_answer": "RAID 1",
+            "incorrect_answers": [
+                "RAID 0",
+                "RAID 10",
+                "RAID 5"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Dutch computer scientist Mark Overmars is known for creating which game development engine?",
+            "correct_answer": "Game Maker",
+            "incorrect_answers": [
+                "Stencyl",
+                "Construct",
+                "Torque 2D"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the codename of the eighth generation Intel Core micro-architecture launched in October 2017?",
+            "correct_answer": "Coffee Lake",
+            "incorrect_answers": [
+                "Sandy Bridge",
+                "Skylake",
+                "Broadwell"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Lenovo acquired IBM&#039;s personal computer division, including the ThinkPad line of laptops and tablets, in what year?",
+            "correct_answer": "2005",
+            "incorrect_answers": [
+                "1999",
+                "2002",
+                "2008"
             ]
         }
     ]
