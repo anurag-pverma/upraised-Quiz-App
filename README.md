@@ -12,13 +12,13 @@ Frontend Deploy link : https://upraisedquizapp.netlify.app/
 * Heroku Deployment 
 
 # Images 🌟
-* Login:
+* Home:
 <br/>
 <img src="https://github.com/anurag-pverma/personal/blob/main/Screenshot%20(340).png?raw=true" alt="3"/>
-* Home:
+
 <br/>
 <img src="https://github.com/anurag-pverma/personal/blob/main/Screenshot%20(341).png?raw=true" alt="3"/>
-* Home:
+*Result
 <br/>
 
 # RUN JSON-SERVER
