@@ -1,27 +1,42 @@
-import React from 'react'
-import { useState } from 'react'
-import Quiz from './Quiz'
+import React from "react";
+import { useState } from "react";
+import Quiz from "./Quiz";
+import { VStack, Button, Heading, Stack  } from "@chakra-ui/react";
 
 function Home() {
-    const [finish, setFinsh] = useState(false)
-    const [result, setResult]= useState(0)
-    if(finish){
-        return (
-            <div>
-                <div>
-                    <p>Result : {result}</p>
-                    <button onClick={()=>setFinsh(false)}> playAgain</button>
-                </div>
-            </div>
-        )
-    }
+  const [finish, setFinsh] = useState(false);
+  const [result, setResult] = useState(0);
+  if (finish) {
+    return (
+      <div>
+        <VStack >
+            
+          <Heading 
+          fontFamily={"'Montserrat', sans-serif"}
+          >No. Of Correct Answer: {result}</Heading >
+          <Button colorScheme='orange' variant='outline' onClick={() => setFinsh(false)}> Play Again</Button>
+         
+        </VStack>
+      </div>
+    );
+  }
   return (
-    <div>
-       <h5> Welcom to Home of React Quix</h5>
+    <Stack>
+     <Heading
+     fontFamily={" 'Montserrat', sans-serif"}
+     my={"10px"}
+     
+     >Welcome Upraised Quiz Game</Heading>
 
-        <Quiz onResult ={(result)=> setResult(result)} onFinish={(finish)=> setFinsh(finish)}/>
-    </div>
-  )
+        <Stack>
+
+      <Quiz
+        onResult={(result) => setResult(result)}
+        onFinish={(finish) => setFinsh(finish)}
+        />
+        </Stack>
+    </Stack>
+  );
 }
 
-export default Home
+export default Home;

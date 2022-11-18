@@ -4,6 +4,8 @@ import Answer from "./Answer";
 import Question from "./Question";
 import axios from "axios";
 
+import { Heading, Stack , Flex, Button } from '@chakra-ui/react'
+
 function Quiz({onFinish, onResult,}) {
   const [question, setQuestion] = useState(null);
   const [count , setCount] = useState(0)
@@ -28,7 +30,16 @@ function Quiz({onFinish, onResult,}) {
     console.log(question)
   },[question, count, score]);
 
-  if(!question) return <p>Question is  loding....</p>
+  if(!question) return <Button 
+  isLoading
+  loadingText='Please waite Question is loading...'
+  colorScheme='red'
+  variant='outline'
+  spinnerPlacement='start'
+  
+  ></Button >
+
+
 
   const answer = [...question[count].incorrect_answers, question[count].correct_answer]
   const result = answer.sort(()=> Math.random()-0.5);
@@ -51,17 +62,17 @@ function Quiz({onFinish, onResult,}) {
       <div>
         <Question  question= {question[count].question} />
       </div>
-      <div style={{ backgroundColor: "red", width: "400px" }}>
+      <div>
 
         {
             result.map((answer, index)=>(
                 
-                      <Answer answer={answer}
+              <div >
+                      <Answer answer={answer}                    
                       key={index}
-                      onAnswer={(answer)=> checkAnswer(answer)}
-                      
+                      onAnswer={(answer)=> checkAnswer(answer)}                     
                       />
-                
+              </div>
             ))
         }
   
