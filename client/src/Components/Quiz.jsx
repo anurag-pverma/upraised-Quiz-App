@@ -15,7 +15,7 @@ function Quiz({onFinish, onResult,}) {
     const getApi = () => {
       axios
         .get(
-          "http://localhost:8080/results"
+          "https://quizdeploy.herokuapp.com/results"
         )
         .then((res) => {
           setQuestion(res.data);
