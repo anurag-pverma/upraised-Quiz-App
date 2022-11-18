@@ -1,0 +1,124 @@
+{
+    "results": [
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of these names was an actual codename for a cancelled Microsoft project?",
+            "correct_answer": "Neptune",
+            "incorrect_answers": [
+                "Enceladus",
+                "Pollux",
+                "Saturn"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who is the original author of the realtime physics engine called PhysX?",
+            "correct_answer": "NovodeX",
+            "incorrect_answers": [
+                "Ageia",
+                "Nvidia",
+                "AMD"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which data structure does FILO apply to?",
+            "correct_answer": "Stack",
+            "incorrect_answers": [
+                "Queue",
+                "Heap",
+                "Tree"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which of the following is the oldest of these computers by release date?",
+            "correct_answer": "TRS-80",
+            "incorrect_answers": [
+                "Commodore 64",
+                "ZX Spectrum",
+                "Apple 3"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the name of the process that sends one qubit of information using two bits of classical information?",
+            "correct_answer": "Quantum Teleportation",
+            "incorrect_answers": [
+                "Super Dense Coding",
+                "Quantum Entanglement",
+                "Quantum Programming"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "America Online (AOL) started out as which of these online service providers?",
+            "correct_answer": "Quantum Link",
+            "incorrect_answers": [
+                "CompuServe",
+                "Prodigy",
+                "GEnie"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Which RAID array type is associated with data mirroring?",
+            "correct_answer": "RAID 1",
+            "incorrect_answers": [
+                "RAID 0",
+                "RAID 10",
+                "RAID 5"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Dutch computer scientist Mark Overmars is known for creating which game development engine?",
+            "correct_answer": "Game Maker",
+            "incorrect_answers": [
+                "Stencyl",
+                "Construct",
+                "Torque 2D"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "What is the codename of the eighth generation Intel Core micro-architecture launched in October 2017?",
+            "correct_answer": "Coffee Lake",
+            "incorrect_answers": [
+                "Sandy Bridge",
+                "Skylake",
+                "Broadwell"
+            ]
+        },
+        {
+            "category": "Science: Computers",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Lenovo acquired IBM&#039;s personal computer division, including the ThinkPad line of laptops and tablets, in what year?",
+            "correct_answer": "2005",
+            "incorrect_answers": [
+                "1999",
+                "2002",
+                "2008"
+            ]
+        }
+    ]
+}
