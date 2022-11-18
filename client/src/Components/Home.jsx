@@ -13,7 +13,7 @@ function Home() {
             
           <Heading 
           fontFamily={"'Montserrat', sans-serif"}
-          >No. Of Correct Answer: {result}</Heading >
+          >No. Of Correct Answer: {result} Out of 10</Heading >
           <Button colorScheme='orange' variant='outline' onClick={() => setFinsh(false)}> Play Again</Button>
          
         </VStack>
